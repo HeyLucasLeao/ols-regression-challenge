@@ -24,7 +24,7 @@ nbformat = {version = "^5.10.4"}
 seaborn = {version = "^0.12.2"}
 statsmodels = {version = "^0.13.5"}
 pandas = {version = "^2.0.3"}
-
+tinycp = "0.0.8"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
