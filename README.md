@@ -8,17 +8,6 @@ This project is an OLS (Ordinary Least Squares) regression challenge focused on 
 - Develop OLS regression models to predict mortality rates.
 - Analyze model performance and interpret results.
 
-## ROADMAP
-- EDA
-- Hypothesis test (test multicolinearity, )
-- First regression model
-- Analyse QQ plot, VIF, tolerance and most important features
-- Analyze the results
-- Transform into interval prediction with conformal prediction
-- Analyze the results and transform and create a quantile regression with a interval prediction context
-- Transform into conformal prediction
-- View Average Ratio
-
 ## Getting Started
 
 1. Clone the repository.
@@ -29,7 +18,7 @@ This project is an OLS (Ordinary Least Squares) regression challenge focused on 
 
 This project is for educational purposes.
 
-Data Dictionary
+## Data Dictionary
 
 Features
 These descriptions were directly taken from the dataset’s website:
