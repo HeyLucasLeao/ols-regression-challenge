@@ -1973,6 +1973,27 @@ notebook = ["ipykernel (>=6.7.0,<7.0.0)", "nbformat (>=5.10.4,<6.0.0)"]
 plot = ["kaleido (==0.2.1)", "plotly (>=5.22.0,<6.0.0)"]
 
 [[package]]
+name = "tinyshift"
+version = "0.0.9"
+description = "A small toolbox for mlops"
+optional = false
+python-versions = "<4.0,>=3.10"
+groups = ["main"]
+files = [
+    {file = "tinyshift-0.0.9-py3-none-any.whl", hash = "sha256:f6a2e3852c9ddcf63ccb039b2144358b1de5580c832f21edae26aa7ae50b4e8a"},
+    {file = "tinyshift-0.0.9.tar.gz", hash = "sha256:054220e72208ea13ec36e73805f3821d3670c4da9746dcc6e6a50992a1dbd42b"},
+]
+
+[package.dependencies]
+pandas = "*"
+scikit-learn = ">=1.3.0,<2.0.0"
+
+[package.extras]
+all = ["ipykernel (>=6.7.0,<7.0.0)", "kaleido (==0.2.1)", "nbformat (>=5.10.4,<6.0.0)", "plotly (>=5.22.0,<6.0.0)"]
+notebook = ["ipykernel (>=6.7.0,<7.0.0)", "nbformat (>=5.10.4,<6.0.0)"]
+plot = ["kaleido (==0.2.1)", "plotly (>=5.22.0,<6.0.0)"]
+
+[[package]]
 name = "tornado"
 version = "6.5.1"
 description = "Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed."
@@ -2066,4 +2087,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "900b9142e84b893b70666b8ad6c1ff24b5c04ff2973df9a7a2ee044bb0e08add"
+content-hash = "1a59f90c92f908a724a7a0aa42d694c472678c8b490db78d5a8b3b38b3109ff8"
