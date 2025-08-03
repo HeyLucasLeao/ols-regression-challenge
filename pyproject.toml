@@ -25,7 +25,7 @@ seaborn = {version = "^0.12.2"}
 statsmodels = {version = "^0.13.5"}
 pandas = {version = "^2.0.3"}
 tinycp = "0.0.8"
-tinyshift = "^0.1.2"
+tinyshift = "^0.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

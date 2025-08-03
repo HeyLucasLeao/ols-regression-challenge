@@ -1974,14 +1974,14 @@ plot = ["kaleido (==0.2.1)", "plotly (>=5.22.0,<6.0.0)"]
 
 [[package]]
 name = "tinyshift"
-version = "0.1.2"
+version = "0.3.0"
 description = "A small toolbox for mlops"
 optional = false
 python-versions = "<4.0,>=3.10"
 groups = ["main"]
 files = [
-    {file = "tinyshift-0.1.2-py3-none-any.whl", hash = "sha256:2ae6a5ea66468e2d40c0e93c52488eb1d5cfc0f1bf23678b9133fffddcb3117f"},
-    {file = "tinyshift-0.1.2.tar.gz", hash = "sha256:b3a3c0aa287c62cb76c4911415607e9eeb7c55c2ce3a3533815fc928738343d9"},
+    {file = "tinyshift-0.3.0-py3-none-any.whl", hash = "sha256:9887bbf3de5b08c18934d74283c5142e68b3a4187af280be0242d62e820b944b"},
+    {file = "tinyshift-0.3.0.tar.gz", hash = "sha256:ab7dbd248958e13c2e679207fc0fa59c20e002cdcb2cc5dcfaec4b7cbe248ca7"},
 ]
 
 [package.dependencies]
@@ -2087,4 +2087,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "ceabc0f9dd753fe07df46b29df5cfc25bb37c8d02c016325b662701d62c1cdf5"
+content-hash = "ee4c1ec944f5b7f5c89b2d99fc3558f5428f65f6d82e3c1847b2a88ecbaa5b2c"
